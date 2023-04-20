@@ -1,0 +1,44 @@
+1=>JSON itrate overal all for loops;
+
+for loop;
+for{
+    initialization;
+    condition;
+    increament/decreament;
+}
+
+for in;
+it is an objects 
+
+for of;
+it is an arrays
+
+for each;
+it will be after the functions
+
+
+2=>own resume in JSON formate;
+
+In JSON there is two methode;
+JSON.stringify
+JSON.parse
+let studentdetails={
+    name:"arun",
+    fname:"kumar",
+    age:25,
+    location:"nilgiris"
+
+}
+undefined
+JSON.stringify(studentdetails)
+'{"name":"arun","fname":"kumar","age":25,"location":"nilgiris"}'
+
+let stringifydata=JSON.stringify(studentdetails)
+
+stringifydata
+'{"name":"arun","fname":"kumar","age":25,"location":"nilgiris"}'
+JSON.parse(stringifydata)
+
+{name: 'arun', fname: 'kumar', age: 25, location: 'nilgiris'}
+JSON.parse(stringifydata).fname
+'kumar'
